@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="prat">
+
+    </div>
+    <!-- <h2>prat</h2>
+    <h2>jaidev</h2> -->
+</body>
+<script > 
+const div = document.getElementById('prat');
+const pyaara = document.createElement('p');
+
+const anyObject={prat :"yes" ,
+                jaidev:"okay",
+                etto : "uooo"
+            };
+var text = "";
+for(let key in anyObject){
+    
+    text += anyObject[key] + ' ';}
+
+// div.innerHTML = text;
+pyaara.innerHTML = text;
+document.body.appendChild(pyaara);
+</script>
+</html>

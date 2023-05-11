@@ -1,0 +1,7 @@
+    before & after 
+
+    UTF-8
+
+    meta tags   
+
+    @media helps in making a website responsive

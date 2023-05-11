@@ -1,0 +1,12 @@
+HTTPS vs HTTP 
+
+HTTPS:-hyper text transfer protocol secure    ----> Becuase of secure socket layer [SSL]
+HTTP:-hyper text transfer protocol
+
+
+
+
+DNS:- Domain name system 
+
+IP:- internet protocol     -----> EG of IP address :- [192.169.20.18]
+

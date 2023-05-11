@@ -1,0 +1,5 @@
+
+
+{key : value, key : value};
+
+ex - let firstObject = {prat : "teacher", JAIDEV : 'student'};

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body   ><div class="one">
+    
+        <div class="nav">
+         <div class="wrapper_one"><div> <div id="circle" ></div>  <img src="636e0a6cc3c481a15a141738_icon_clyde_white_RGB.png" alt="" id="logo" >
+        
+        </div>
+        <div class="wrapper_two">
+        <img src="plus-removebg-preview.png" alt="" id="plus" >
+
+    </div>
+    <div class="wrapper_three">
+        <img src="compass-removebg-preview.png" alt="" id="compass" >
+    </div>
+</div>
+  
+         <button class="conversation"  > Find or start a conversation   </button> 
+     
+         <button class="friends" style="margin-left: 65px; float: left; " > <img src="friend-removebg-preview.png" alt="" id="img_friend" > <h2 style="margin-top: 5px; 
+             color: aliceblue; " >Friends</h2>  </button>
+           <div class="direct" style=" margin-left: 65px; width: 240px; display: flex;flex-direction: row; background-color: rgb(61, 61, 61); "  >
+            <h3 >direct message</h3>
+            <img src="plus.png" alt="" id="plus2" style=" margin-left: 90px; background-color: rgb(61, 61, 61); "  >
+            </div>
+            <div class="content" style="margin-top: 100px; margin-left: 65px; width: 240px; background-color: rgb(61, 61, 61); height: 496px; margin-top: 0px ; "
+             >
+                <h2 style="margin-top: 205px; margin-left: 8px;">All Friends are offline</h2>
+            </div>
+
+    <div class="nav_2" >
+        <button class="navBtn_2"></button>
+        <button class="navBtn_2"></button>
+        <button class="navBtn_2"></button>
+        <button class="navBtn_2"></button>
+        <button class="navBtn_2"></button>
+        <button class="navBtn_2"></button>
+    </div>
+
+</body>
+<script>
+    const logo=document.getElementById('logo')
+    const circle=document.getElementById('circle')
+    const plus = document.getElementById('plus')
+    const compass=document.getElementById('compass')
+    const imgFriend=document.getElementById('img_friend')
+    const plusT= document.getElementById('plus2')
+    
+    imgFriend.style.height='35px'
+    imgFriend.style.float='left'
+    imgFriend.style.marginLeft='5px'
+    plusT.style.height='20px'
+    
+function pract1(){
+    circle.style.height='38px'
+    circle.style.border="3px solid white";         //-----> One
+    circle.style.borderRadius ="20%"; 
+    circle.style.position='relative'
+    circle.style.left='-1px'
+    logo.style.marginLeft='3.2px'; 
+   
+}
+logo.addEventListener('mouseover', pract1);
+function jaidev1(){
+    circle.style.height='38px'
+    circle.style.position='relative'
+    circle.style.left='-15px'
+    circle.style.marginTop='9px'
+    plus.style.marginLeft='10px'
+    
+}
+    logo.addEventListener('mouseleave', jaidev1);
+   
+   
+function pract2(){                                              //------>Two
+    circle.style.height='38px'
+    circle.style.border="3px solid white";       
+    circle.style.borderRadius ="20%"; 
+    circle.style.position='relative'
+    circle.style.left='-1px'
+    logo.style.marginLeft='3.2px'; 
+    circle.style.marginTop='70px' 
+}
+plus.addEventListener('mouseover', pract2);
+function jaidev2(){
+    circle.style.height='38px'
+    circle.style.position='relative'
+    circle.style.left='-15px'
+    circle.style.marginTop='9px'
+    plus.style.marginLeft='10px'
+}
+plus.addEventListener('mouseleave', jaidev2);
+
+
+
+function pract3(){                                           //-----> Three
+    circle.style.height='38px'
+    circle.style.border="3px solid white";        
+    circle.style.borderRadius ="20%"; 
+    circle.style.position='relative'
+    circle.style.left='-1px'
+    logo.style.marginLeft='3.2px'; 
+    circle.style.marginTop='134px' 
+}
+compass.addEventListener('mouseover', pract3);
+function jaidev3(){
+    circle.style.height='38px'
+    circle.style.position='relative'
+    circle.style.left='-15px'
+    circle.style.marginTop='9px'
+    compass.style.marginLeft='10px'
+}
+compass.addEventListener('mouseleave', jaidev3);
+
+    
+</script>
+
+</html>

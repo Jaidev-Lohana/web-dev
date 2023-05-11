@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+  background-color: rgb(253, 253, 253);
+  
+  height: 50px;
+
+}
+.nav_btn{
+    margin-top: 14px;
+    margin-left: 50px;
+    height: 30px;
+    background-color: white;
+    border: white;
+    font-size: medium;
+    font-weight: 500;
+    transition: 0.2s;
+ 
+
+}
+.inp{
+    height: 25px;
+}
+
+.nav_btn:hover
+{
+    border-bottom: 2px solid red;
+}
+
+.logo{
+    height: 30px;
+    padding-left: 50px ;
+    padding-top: 15px;
+    float: left;
+   
+}
+.icon{
+    margin-left: 20px;
+    position: relative;
+    left: 150px;
+}
+.icon:hover {
+    border-bottom: 2px solid red;
+}
+i{
+    margin-left: 150px;
+   
+    height: 30px;
+}
+ul{
+    display: inline;
+}
+
+#first_offer{
+    margin-top: 10px;
+    /* margin-left: 10px; */
+  width: 1349px;
+}
+
+#second_offer{
+    margin-top: 10px;
+    /* margin-left: 10px; */
+  width: 1349px;
+}
+#third_offer{
+    margin-top: 10px;
+    /* margin-left: 25px; */
+  width: 1300px;
+  
+}
+
+.must_be_in_your_wardrobe{
+    margin-left: 10px;
+    height: 320px;
+
+}
+.offers_in_box_one{
+    width: 1349px;
+}
+.offers_in_box_two{
+    width: 1349px;
+}
+
+.budget{
+    margin-top: 10px;
+    /* margin-left: 25px; */
+  width: 1300px
+}
+.offers_in_box_last{
+    margin-left: 10px;
+    height: 310px;
+}
+@media (min-width: 769px) and (max-width: 1199px){
+    #first_offer{
+        width: 769px ;
+    }
+    #second_offer{
+      width: 769px;
+    }
+    #third_offer{
+      
+      width: 769px;
+    }
+    .must_be_in_your_wardrobe{
+        margin-left: 5px;
+        height: 250px;
+    
+    }
+    .offers_in_box_one{
+        width: 769px;
+    }
+    .offers_in_box_two{
+        width: 769px;
+    }
+    
+    .budget{
+        margin-top: 10px;
+        /* margin-left: 25px; */
+      width: 769px;
+    }
+    .offers_in_box_last{
+        margin-left: 5px;
+        height: 250px;
+    }
+
+}

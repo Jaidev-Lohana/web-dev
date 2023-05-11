@@ -1,0 +1,7 @@
+[]    ---->     array
+
+linear structure it can store multipal data of multipal tpye of data seprated with a comma (,)  .
+each element is accessible through looping and other functions
+
+ex:-        const firstArray=[2,3,4,"jaidev",true,4.6]
+
